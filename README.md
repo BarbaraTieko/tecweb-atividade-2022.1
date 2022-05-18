@@ -11,12 +11,15 @@ Para realizar essa atividade, recomendo que dê um fork neste repositório.
     Para executar o projeto é necessário seguir os passos a seguir.
 
     - Crie um ambinente virtual.
+
           python -m venv env
 
     - Ative o ambiente virtual.
     - Instale as dependências do projeto. Dentro da pasta notes_backend, rode o comando a seguir.
+
           pip install -r requirements.txt
     - Execute o comando:
+
           python manage.py migrate
 
 
@@ -27,6 +30,7 @@ Para realizar essa atividade, recomendo que dê um fork neste repositório.
     Para executar o projeto é necessário seguir os passos a seguir.
 
     - Instale as dependência. Para isso, dentro da pasta notes_frontend, rode o comando a seguir:
+    
         npm i
 
 
