@@ -22,18 +22,13 @@ def api_note(request, note_id):
         note.title = new_note_data['title']
         note.content = new_note_data['content']
         note.save()
-    
+
     if request.method == 'DELETE':
         note.delete()
         return Response(status=204)
 
     serialized_note = NoteSerializer(note)
     return Response(serialized_note.data)
-
-
-    
-
-
 
 
 @api_view(['GET', 'POST'])
@@ -45,8 +40,8 @@ def api_note_list(request):
         content = new_note_data['content']
         note = Note(title=title, content=content)
         note.save()
-    
+
     notes = Note.objects.all()
-    
+
     serialized_note = NoteSerializer(notes, many=True)
     return Response(serialized_note.data)
