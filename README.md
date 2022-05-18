@@ -5,18 +5,23 @@ Neste repositório você pode encontrar dois projetos.
 Para realizar essa atividade, recomendo que dê um fork neste repositório.
 
 1.  notes_backend
+
     O projeto 'notes_backend' possui um projeto Django REST com algumas funcionalidades já implementadas em sala de aula.
 
     Para executar o projeto é necessário seguir os passos a seguir.
 
     - Crie um ambinente virtual.
-        python -m venv env
+          python -m venv env
 
     - Ative o ambiente virtual.
     - Instale as dependências do projeto. Dentro da pasta notes_backend, rode o comando a seguir.
-        pip install -r requirements.txt
+          pip install -r requirements.txt
+    - Execute o comando:
+          python manage.py migrate
+
 
 2. notes_frontend
+
     O projeto notes_frontend possui um projeto React com algumas funcionalidades já implementadas em sala de aula.
 
     Para executar o projeto é necessário seguir os passos a seguir.
