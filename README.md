@@ -30,8 +30,8 @@ Para realizar essa atividade, recomendo que dê um fork neste repositório.
     Para executar o projeto é necessário seguir os passos a seguir.
 
     - Instale as dependência. Para isso, dentro da pasta notes_frontend, rode o comando a seguir:
-    
-        npm i
+
+          npm i
 
 
 # Atividade
